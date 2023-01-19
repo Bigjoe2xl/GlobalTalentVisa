@@ -1,0 +1,269 @@
+body{
+    background-color: white;
+    margin-bottom: 1000px;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-section{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+    
+}
+.header-logo{
+    margin-left: 50px;
+}
+.logo-image{
+    width: 120px;
+}
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.header-text{
+    margin-left: 30px;
+    font-size: 600;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+}
+.header-text2{
+    margin-left: 30px;
+    font-size: 600;
+    font-weight: 500;
+    color: #57c2f9;
+    cursor: pointer;
+}
+.header-text:hover{
+    color: rgb(131, 131, 131);
+    transition: font-weight 01.5s;
+}
+.score-button{
+    background-color: #57c2f9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: red;
+    border-width: 10px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgb(158, 158, 158, 0.2);
+    transition: background-color 0.12s, color 0.15s;
+    
+}
+.score-button:hover{
+    background-color: rgb(247, 247, 247);
+    color: rgb(48, 48, 48);
+
+}
+.header-button{
+    margin-right: 50px;
+}
+
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-top: 120px;
+
+}
+.content-area{
+    padding-left: 250px;
+  
+
+}
+.hero-pic{
+    padding-left: 120px;
+    width: 550px;
+}
+.talent-text{
+    color: #57c2f9;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.global-text{
+    color: rgb(88, 88, 88);
+    font-size: 47px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 45px;
+
+}
+.defini-text{
+    font-size: 25px;
+    color: gray;
+    font-weight: 100;
+    line-height: 38px;
+    width: 660px;
+    margin-bottom: 45px;
+}
+.large-button{
+        background-color: #57c2f9;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-right: 55px;
+        padding-left: 55px;
+        border: red;
+        border-width: 10px;
+        color: white;
+        font-size: large;
+        font-weight: 600;
+        border-radius: 30px;
+        cursor: pointer;
+        box-shadow: 10px 10px 15px rgb(158, 158, 158, 0.2);
+        transition: background-color 0.12s, color 0.15s;
+        
+    }
+    .large-button:hover{
+        background-color: rgb(247, 247, 247);
+        color: rgb(48, 48, 48);
+    }
+    .benefit-text{
+            color: rgb(88, 88, 88);
+            font-size: 38px;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 45px;
+    }
+    .benefits{
+        font-size: 20px;
+        color: gray;
+        font-weight: 100;
+        line-height: 38px;
+        width: 660px;
+        
+    }
+    .benefit{
+        margin-top: 150px;
+    }
+
+    .first-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 120px;
+        margin-left: 110px;
+        align-items: center;
+    }
+
+    .cap-image{
+        width: 50px;
+    }
+    .degree-text{
+        font-size: 25px;
+        width: 250px;
+    }
+    .details{
+        font-size: 18px;
+        color: rgb(163, 163, 163);
+        font-weight: 100;
+        line-height: 30px;
+        width: 350px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .card-section{
+        align-items: center;
+        background-color: #f7f0eb;
+        height: 1000px;
+        margin-top: 60px;
+    }
+    .promise-text{
+        color: rgb(63, 63, 63);
+        font-size: 38px;
+        font-weight: 600;
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    .promise-details{
+        font-size: 20px;
+        color: gray;
+        font-weight: 100;
+        line-height: 33px;
+        width: 610px;
+        
+    }
+    .card1{
+        margin-left: 320px;
+        
+    }
+    .card2{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .card-image1{
+        width: 450px;
+    }
+    .card-image2{
+        width: 450px;
+    }
+
+    .eli-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        background-color: #ebdfd6;
+        height: 230px;
+    }
+    .eli-text{
+        display: inline-block;
+        font-size: xx-large;
+        padding-left: 120px;
+        font-weight: bold;
+        color: rgb(102, 102, 102);
+        width: 450px;
+        line-height: 45px;
+    }
+    .line{
+        position: absolute;
+        left: 380px;
+        background-color: rgb(102, 102, 102);
+        width: 300px;
+        height: 3px;
+        margin-top: 60px;
+   
+        
+    }
+    .check-button{
+        
+        background-color: #57c2f9;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 100px;
+        padding-left: 100px;
+        border: none;
+        color: white;
+        font-size: large;
+        font-weight: 600;
+        border-radius: 30px;
+        cursor: pointer;
+        box-shadow: 10px 10px 15px rgb(158, 158, 158, 0.2);
+        transition: background-color 0.12s, color 0.15s;
+        
+    }
+    .check-button:hover{
+        background-color: rgb(247, 247, 247);
+        color: rgb(48, 48, 48);
+    
+        
+    }
+    .cbutton{
+        padding-left: 450px;
+    }
+   
+        
